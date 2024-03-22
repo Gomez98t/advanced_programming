@@ -1,0 +1,8 @@
+.Login{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img {
+  -webkit-filter: grayscale(1);
+  filter: blur(1);
+}
