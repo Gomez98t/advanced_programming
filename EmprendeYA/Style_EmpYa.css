@@ -1,3 +1,13 @@
+@media only screen and (min-width:599px){
+  .button-container, .IniciarSesion,.header,.Login,.IniciarSesion:hover{
+    flex-direction: column;
+  }
+}
+@media only screen and (min-width:600px){
+  .button-container, .IniciarSesion,.header,.Login,.IniciarSesion:hover{
+    flex-direction: row;
+  }
+}
 body {
 
     font-family: Arial, sans-serif;
