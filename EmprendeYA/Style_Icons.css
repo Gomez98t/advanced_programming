@@ -1,49 +1,58 @@
-@media only screen and (min-width:599px){
-    .circle,.EmpYa,.LogoEmpYa,.texto,.SocialNets,.Exito{
-      flex-direction: column;
-    }
+@media only screen and (min-width: 599px) {
+  .circle,
+  .EmpYa,
+  .LogoEmpYa,
+  .texto,
+  .SocialNets,
+  .Exito {
+    flex-direction: column;
   }
-  @media only screen and (min-width:600px){
-    .circle,.EmpYa,.LogoEmpYa,.texto,.SocialNets,.Exito{
-      flex-direction: row;
-    }
+}
+@media only screen and (min-width: 600px) {
+  .circle,
+  .EmpYa,
+  .LogoEmpYa,
+  .texto,
+  .SocialNets,
+  .Exito {
+    flex-direction: row;
   }
+}
 .LogoEmpYa img {
-    margin-left: 760px;
-    margin-top: -20px; 
-    width: 400px;
-    height: 400px;
+  margin-left: 760px;
+  margin-top: -20px;
+  width: 400px;
+  height: 400px;
 }
-.SocialNets{
-    background-color: aliceblue;
-    max-width: 140px;
-    max-height: 30px;
-    height: 10px;
-    width: 140px;
-    position: absolute;
-    top: 430px; 
-    left: 110px; 
+.SocialNets {
+  background-color: aliceblue;
+  max-width: 140px;
+  max-height: 30px;
+  height: 10px;
+  width: 140px;
+  position: absolute;
+  top: 430px;
+  left: 110px;
 }
-.texto{
-    font-family: Verdana,  Tahoma, sans-serif;
-    position: absolute;
-    top: 100px; 
-    left: 110px; 
+.texto {
+  font-family: Verdana, Tahoma, sans-serif;
+  position: absolute;
+  top: 100px;
+  left: 110px;
 }
 .circle {
-    width: 800px; 
-    height: 800px; 
-    background-color: #FED7AA; 
-    border-radius: 50%;
-    position: absolute;
-    top: -100px; 
-    left: 680px; 
-    z-index: -1; 
- }
+  width: 800px;
+  height: 800px;
+  background-color: #fed7aa;
+  border-radius: 50%;
+  position: absolute;
+  top: -100px;
+  left: 680px;
+  z-index: -1;
+}
 .EmpYa {
-    font-size: 24px;
+  font-size: 24px;
 }
-.Exito{
-    font-size: 40px;
+.Exito {
+  font-size: 40px;
 }
-    
