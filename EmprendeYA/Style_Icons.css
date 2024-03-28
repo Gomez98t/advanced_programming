@@ -40,14 +40,24 @@
   top: 100px;
   left: 110px;
 }
+.container-circle {
+  width: 640px;
+  height: 550px;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
 .circle {
-  width: 800px;
-  height: 800px;
+  width: 850px;
+  height: 780px;
   background-color: #fed7aa;
   border-radius: 50%;
-  position: absolute;
+  position: relative;
   top: -100px;
-  left: 680px;
+  right: -50px;
+
+  margin: auto;
   z-index: -1;
 }
 .EmpYa {
