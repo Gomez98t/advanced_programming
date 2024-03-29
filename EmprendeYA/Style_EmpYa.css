@@ -44,11 +44,12 @@ nav {
   display: inline-block;
   padding: 10px 20px;
   margin: 0 10px;
-  color: #fff;
+  color: #000000;
   text-decoration: none;
   background-color: #f97316;
   border-radius: 5px;
   border: 1px solid #f97316;
+  transition: background-color 0.5s;
 }
 
 .button-container a:hover {
@@ -83,10 +84,11 @@ nav {
 .IniciarSesion {
   padding: 10px 10px;
   background-color: #f97316;
-  color: #ffffff;
+  color: #000000;
   border: 1px solid #f97316;
   border-radius: 5px;
   cursor: pointer;
+  transition: background-color 0.5s;
 }
 .IniciarSesion:hover {
   background-color: #fed7aa;

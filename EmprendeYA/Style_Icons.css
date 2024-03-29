@@ -25,7 +25,7 @@
   height: 400px;
 }
 .SocialNets {
-  background-color: aliceblue;
+  background-color:white;
   max-width: 140px;
   max-height: 30px;
   height: 10px;
@@ -35,8 +35,10 @@
   left: 110px;
 }
 .texto {
+  background-color:white;
   font-family: Verdana, Tahoma, sans-serif;
   position: absolute;
+  border-radius: 5px;
   top: 100px;
   left: 110px;
 }
@@ -47,6 +49,7 @@
   position: absolute;
   top: 0;
   right: 0;
+  z-index: -1;
 }
 .circle {
   width: 850px;
@@ -56,13 +59,28 @@
   position: relative;
   top: -100px;
   right: -50px;
-
   margin: auto;
-  z-index: -1;
 }
 .EmpYa {
+  color: #F97316;
   font-size: 24px;
 }
+@font-face {
+  font-family: 'MiFuente'; /* Nombre de la fuente */
+  src: url('ruta/de/la/fuente.ttf'); /* Ruta a la fuente en tu servidor */
+}
+
+/* Aplicar la fuente a elementos específicos */
+body {
+  font-family: 'MiFuente', sans-serif; /* Usar la fuente 'MiFuente' como predeterminada */
+}
+.Container-Exito{
+  border: 1px solid black; 
+  width: 350px;
+  height: 120px;
+  overflow: hidden;
+}
 .Exito {
-  font-size: 40px;
+  margin: auto;
+  font-size: 50px;
 }
